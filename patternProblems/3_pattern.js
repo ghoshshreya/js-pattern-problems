@@ -7,12 +7,12 @@
 
 var getPattern = function (N) {
   console.log('Pattern');
-  for (let x = N; x <= 1; x--) {
+  for (let x = N; x >= 1; x--) {
     let str = '';
-    // for (let j = 1; j <= N; j++) {
-    //   str = str + j.toString();
-    // }
-    console.log('Hello', str);
+    for (let j = 1; j <= x; j++) {
+      str = str + j.toString();
+    }
+    console.log(str);
   }
 };
 console.log('Hello');
