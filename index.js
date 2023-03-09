@@ -5,6 +5,7 @@ import './patternProblems/2_pattern.js';
 import './patternProblems/3_pattern.js';
 import './patternProblems/4_pattern.js';
 import './patternProblems/5_pattern.js';
+import './patternProblems/6_pattern.js';
 import './patternProblems/7_pattern.js';
 
 // Write Javascript code!
