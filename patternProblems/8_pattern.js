@@ -6,11 +6,13 @@
 //      *
 
 let getPattern = function (n) {
-  for (let x = n; x > 0; x--) {
-    for (y = x; y > 0; y--) {
-      console.log('*');
-    }
-  }
+  // for (let x = n; x > 0; x--) {
+  //   let max = (N * 2) / 2;
+  //   for (let z = n - x; z > 0; z--) {
+  //     str = 'aa' + str;
+  //     str = str + 'aa';
+  //   }
+  // }
 };
 
-getPattern(1);
+getPattern(5);
