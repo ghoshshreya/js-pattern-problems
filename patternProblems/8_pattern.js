@@ -13,4 +13,4 @@ let getPattern = function (n) {
   }
 };
 
-getPattern(5);
+getPattern(1);
