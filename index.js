@@ -7,6 +7,7 @@ import './patternProblems/4_pattern.js';
 import './patternProblems/5_pattern.js';
 import './patternProblems/6_pattern.js';
 import './patternProblems/7_pattern.js';
+import './patternProblems/8_pattern.js';
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');

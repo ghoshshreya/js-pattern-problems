@@ -1,3 +1,10 @@
+// N = 5
+//      *
+//     ***
+//    *****
+//  *********
+// ***********
+
 var getPattern = function (N) {
   let max = N * 2 - 1;
   let str1 = '';
