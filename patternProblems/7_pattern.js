@@ -8,13 +8,14 @@ var getPattern = function (N) {
       i--;
     }
 
-    // let addSpace = Math.floor((max - str.length) / 2);
-
-    // while (addSpace > 0) {
-    //   str = ' ' + str;
-    //   str = str + ' ';
-    //   addSpace--;
-    // }
+    let addSpace = Math.floor((max - str.length) / 2);
+    console.log(addSpace);
+    let z = 0;
+    while (addSpace > 0 && z < 100) {
+      console.log('Hello');
+      z++;
+      addSpace = addSpace - 1;
+    }
 
     console.log(str);
   }
